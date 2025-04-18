@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dijital Okuryazarlık Değerlendirme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial; background: #f7f7f7; padding: 20px; }
+    h1 { text-align: center; }
+    .question { background: white; padding: 15px; margin: 10px 0; border-radius: 8px; box-shadow: 0 0 4px rgba(0,0,0,0.1); }
+    label { display: block; font-weight: bold; margin-bottom: 6px; }
+    select, input[type="text"] { width: 100%; padding: 10px; font-size: 16px; }
+    small { display: block; color: #666; margin-bottom: 8px; }
+    button { padding: 12px 24px; background: #3498db; color: white; border: none; border-radius: 6px; font-size: 18px; margin-top: 30px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Dijital Okuryazarlık Değerlendirme Formu</h1>
+  <form id="form">
+    <div class="question">
+      <label for="hafta">Hafta Seçiniz</label>
+      <select id="hafta" name="hafta" required>
+        <option value="">Seçiniz...</option>
+<option value="1. Hafta">1. Hafta</option>
+<option value="2. Hafta">2. Hafta</option>
+<option value="3. Hafta">3. Hafta</option>
+<option value="4. Hafta">4. Hafta</option>
+<option value="5. Hafta">5. Hafta</option>
+<option value="6. Hafta">6. Hafta</option>
+<option value="7. Hafta">7. Hafta</option>
+<option value="8. Hafta">8. Hafta</option>
+<option value="9. Hafta">9. Hafta</option>
+<option value="10. Hafta">10. Hafta</option>
+<option value="11. Hafta">11. Hafta</option>
+<option value="12. Hafta">12. Hafta</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="fullname">İsim Soyisim</label>
+      <select id="fullname" name="fullname" required>
+        <option value="">Seçiniz...</option>
+<option value="Sabriye Nur Heybeli">Sabriye Nur Heybeli</option>
+<option value="Zeynep Mıstıkoğlu">Zeynep Mıstıkoğlu</option>
+<option value="Gül Kartopu">Gül Kartopu</option>
+<option value="Ümran Sokmen">Ümran Sokmen</option>
+<option value="Sevilay Ekşici">Sevilay Ekşici</option>
+<option value="Kadriye Cambaz">Kadriye Cambaz</option>
+<option value="Kübra Kırk">Kübra Kırk</option>
+<option value="Zehra Şibli">Zehra Şibli</option>
+<option value="Fatma Kul">Fatma Kul</option>
+<option value="Fatma Erika Sultanoğlu">Fatma Erika Sultanoğlu</option>
+<option value="Rabia Karaver">Rabia Karaver</option>
+<option value="Saadet Yakaç">Saadet Yakaç</option>
+<option value="Selen Doğru">Selen Doğru</option>
+<option value="Ebru Karavaş">Ebru Karavaş</option>
+<option value="Saadet nur Yalçınkaya">Saadet nur Yalçınkaya</option>
+<option value="Songül Yalçınkaya">Songül Yalçınkaya</option>
+<option value="Medine Selçuk">Medine Selçuk</option>
+<option value="sare şuheda karaman">sare şuheda karaman</option>
+<option value="İrem Kırık">İrem Kırık</option>
+<option value="Müjde Temizkan">Müjde Temizkan</option>
+<option value="Gülistan Bozyel">Gülistan Bozyel</option>
+<option value="Ayten Asan">Ayten Asan</option>
+<option value="Merve Okutan">Merve Okutan</option>
+<option value="İrem Genc">İrem Genc</option>
+<option value="Gül Kartopu">Gül Kartopu</option>
+<option value="İlknur Kilci">İlknur Kilci</option>
+<option value="Songül Şerifler">Songül Şerifler</option>
+<option value="Emel Doğan">Emel Doğan</option>
+<option value="Özlem Atlas">Özlem Atlas</option>
+<option value="Elif Alkan">Elif Alkan</option>
+      </select>
+    </div>
+<div class="question">
+      <label for="q1">1. Bilgisayarı açınız ve masaüstüne geliniz.</label>
+      <select id="Bilgisayarı açınız ve masaüstüne geliniz." name="Bilgisayarı açınız ve masaüstüne geliniz." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q2">2. Masaüstündeki bir simgeye çift tıklayarak herhangi bir uygulamayı başlatınız.</label>
+      <select id="Masaüstündeki bir simgeye çift tıklayarak herhangi bir uygulamayı başlatınız." name="Masaüstündeki bir simgeye çift tıklayarak herhangi bir uygulamayı başlatınız." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q3">3. Başlat menüsünü açarak 'Hesap Makinesi' uygulamasını bulun ve açınız.</label>
+      <select id="Başlat menüsünü açarak 'Hesap Makinesi' uygulamasını bulun ve açınız." name="Başlat menüsünü açarak 'Hesap Makinesi' uygulamasını bulun ve açınız." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q4">4. Görev çubuğunda açık olan uygulamalar arasında geçiş yapınız.</label>
+      <select id="Görev çubuğunda açık olan uygulamalar arasında geçiş yapınız." name="Görev çubuğunda açık olan uygulamalar arasında geçiş yapınız." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q5">5. Dosya Gezgini’ni açarak “Belgeler” klasörünü bulunuz.</label>
+      <select id="Dosya Gezgini’ni açarak “Belgeler” klasörünü bulunuz." name="Dosya Gezgini’ni açarak “Belgeler” klasörünü bulunuz." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q6">6. Masaüstünde “Deneme” adında yeni bir klasör oluşturunuz.</label>
+      <select id="Masaüstünde “Deneme” adında yeni bir klasör oluşturunuz." name="Masaüstünde “Deneme” adında yeni bir klasör oluşturunuz." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q7">7. Size verilen bir Word dosyasını bu klasöre taşıyınız.</label>
+      <select id="Size verilen bir Word dosyasını bu klasöre taşıyınız." name="Size verilen bir Word dosyasını bu klasöre taşıyınız." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q8">8. USB belleği takınız ve içindeki bir dosyayı masaüstüne kopyalayınız.</label>
+      <select id="USB belleği takınız ve içindeki bir dosyayı masaüstüne kopyalayınız." name="USB belleği takınız ve içindeki bir dosyayı masaüstüne kopyalayınız." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q9">9. Belgeyi “Farklı Kaydet” seçeneğiyle masaüstüne “Test_Dosyası” adıyla kaydediniz.</label>
+      <select id="Belgeyi “Farklı Kaydet” seçeneğiyle masaüstüne “Test_Dosyası” adıyla kaydediniz." name="Belgeyi “Farklı Kaydet” seçeneğiyle masaüstüne “Test_Dosyası” adıyla kaydediniz." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q10">10. Word programını açarak 'Bugün hava çok güzel' cümlesini yazınız ve kalın, italik yapınız.</label>
+      <select id="Word programını açarak 'Bugün hava çok güzel' cümlesini yazınız ve kalın, italik yapınız." name="Word programını açarak 'Bugün hava çok güzel' cümlesini yazınız ve kalın, italik yapınız." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q11">11. Excel’de 3 sütun ve 3 satırdan oluşan basit bir tablo oluşturunuz (örneğin: ürün – adet – fiyat).</label>
+      <select id="Excel’de 3 sütun ve 3 satırdan oluşan basit bir tablo oluşturunuz (örneğin: ürün – adet – fiyat)." name="Excel’de 3 sütun ve 3 satırdan oluşan basit bir tablo oluşturunuz (örneğin: ürün – adet – fiyat)." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q12">12. PowerPoint’te yeni bir sunum oluşturunuz ve “Hoş Geldiniz” başlıklı bir slayt ekleyiniz.</label>
+      <select id="PowerPoint’te yeni bir sunum oluşturunuz ve “Hoş Geldiniz” başlıklı bir slayt ekleyiniz." name="PowerPoint’te yeni bir sunum oluşturunuz ve “Hoş Geldiniz” başlıklı bir slayt ekleyiniz." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q13">13. Google hesabınıza giriş yapınız.</label>
+      <select id="Google hesabınıza giriş yapınız." name="Google hesabınıza giriş yapınız." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q14">14. Google Docs’ta boş bir belge açınız, “Merhaba Dünya” yazınız ve belgeyi kaydediniz.</label>
+      <select id="Google Docs’ta boş bir belge açınız, “Merhaba Dünya” yazınız ve belgeyi kaydediniz." name="Google Docs’ta boş bir belge açınız, “Merhaba Dünya” yazınız ve belgeyi kaydediniz." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q15">15. Bu belgeyi bir arkadaşınızla paylaşınız. (Paylaş bağlantısı kullanılarak yapılabilir)</label>
+      <select id="Bu belgeyi bir arkadaşınızla paylaşınız. (Paylaş bağlantısı kullanılarak yapılabilir)" name="Bu belgeyi bir arkadaşınızla paylaşınız. (Paylaş bağlantısı kullanılarak yapılabilir)" required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q16">16. E-posta hesabınıza giriş yapınız.</label>
+      <select id="E-posta hesabınıza giriş yapınız." name="E-posta hesabınıza giriş yapınız." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q17">17. Yeni bir e-posta oluşturunuz, “test@mail.com” adresine 'Deneme' konulu bir e-posta gönderiniz.</label>
+      <select id="Yeni bir e-posta oluşturunuz, “test@mail.com” adresine 'Deneme' konulu bir e-posta gönderiniz." name="Yeni bir e-posta oluşturunuz, “test@mail.com” adresine 'Deneme' konulu bir e-posta gönderiniz." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q18">18. E-postaya bir dosya eki ekleyiniz.</label>
+      <select id="E-postaya bir dosya eki ekleyiniz." name="E-postaya bir dosya eki ekleyiniz." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q19">19. Gelen kutusundaki bir e-postayı “Eğitim” adlı klasöre taşıyınız. (Varsa)</label>
+      <select id="Gelen kutusundaki bir e-postayı “Eğitim” adlı klasöre taşıyınız. (Varsa)" name="Gelen kutusundaki bir e-postayı “Eğitim” adlı klasöre taşıyınız. (Varsa)" required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q20">20. Web tarayıcınızı açınız ve www.google.com adresine gidiniz.</label>
+      <select id="Web tarayıcınızı açınız ve www.google.com adresine gidiniz." name="Web tarayıcınızı açınız ve www.google.com adresine gidiniz." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q21">21. “Güvenli internet kullanımı nedir?” sorusunu aratınız ve bir kaynak seçiniz.</label>
+      <select id="“Güvenli internet kullanımı nedir?” sorusunu aratınız ve bir kaynak seçiniz." name="“Güvenli internet kullanımı nedir?” sorusunu aratınız ve bir kaynak seçiniz." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q22">22. Güvenli şifre oluşturma kurallarını listeleyen bir sayfayı bulunuz.</label>
+      <select id="Güvenli şifre oluşturma kurallarını listeleyen bir sayfayı bulunuz." name="Güvenli şifre oluşturma kurallarını listeleyen bir sayfayı bulunuz." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q23">23. Sosyal medya hesabınız varsa güvenlik ayarlarını kontrol ediniz (şifre, iki adımlı doğrulama).</label>
+      <select id="Sosyal medya hesabınız varsa güvenlik ayarlarını kontrol ediniz (şifre, iki adımlı doğrulama)." name="Sosyal medya hesabınız varsa güvenlik ayarlarını kontrol ediniz (şifre, iki adımlı doğrulama)." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q24">24. www.turkiye.gov.tr (e-devlet) ana sayfasına gidiniz. (Giriş yapılması istenmez, tanıma seviyesi yeterlidir)</label>
+      <select id="www.turkiye.gov.tr (e-devlet) ana sayfasına gidiniz. (Giriş yapılması istenmez, tanıma seviyesi yeterlidir)" name="www.turkiye.gov.tr (e-devlet) ana sayfasına gidiniz. (Giriş yapılması istenmez, tanıma seviyesi yeterlidir)" required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q25">25. kariyer.net, LinkedIn veya benzeri bir iş başvuru sitesini açınız.</label>
+      <select id="kariyer.net, LinkedIn veya benzeri bir iş başvuru sitesini açınız." name="kariyer.net, LinkedIn veya benzeri bir iş başvuru sitesini açınız." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    <div class="question">
+      <label for="q26">26. Bu tür platformlarda iş ilanı aramak için hangi bilgilerin gerektiğini açıklayınız (sözlü/yazılı).</label>
+      <select id="Bu tür platformlarda iş ilanı aramak için hangi bilgilerin gerektiğini açıklayınız (sözlü/yazılı)." name="Bu tür platformlarda iş ilanı aramak için hangi bilgilerin gerektiğini açıklayınız (sözlü/yazılı)." required>
+        <option value="">Seçiniz...</option>
+        <option value="Hiç Yapamıyor">Hiç Yapamıyor</option><option value="Yapamıyor">Yapamıyor</option><option value="Fikri var - Tam destek ile yapabiliyor">Fikri var - Tam destek ile yapabiliyor</option><option value="Yapabiliyor - Az destek ile yapabiliyor">Yapabiliyor - Az destek ile yapabiliyor</option><option value="Tam Yapabiliyor">Tam Yapabiliyor</option>
+      </select>
+    </div>
+    
+    <button type="submit">Gönder</button>
+  </form>
+  <script>
+    document.getElementById("form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const data = {
+        Sheet1: {
+          hafta: document.getElementById("hafta").value,
+          fullname: document.getElementById("fullname").value,
+          "Bilgisayarı açınız ve masaüstüne geliniz.": document.getElementById("Bilgisayarı açınız ve masaüstüne geliniz.").value,
+          "Masaüstündeki bir simgeye çift tıklayarak herhangi bir uygulamayı başlatınız.": document.getElementById("Masaüstündeki bir simgeye çift tıklayarak herhangi bir uygulamayı başlatınız.").value,
+          "Başlat menüsünü açarak 'Hesap Makinesi' uygulamasını bulun ve açınız.": document.getElementById("Başlat menüsünü açarak 'Hesap Makinesi' uygulamasını bulun ve açınız.").value,
+          "Görev çubuğunda açık olan uygulamalar arasında geçiş yapınız.": document.getElementById("Görev çubuğunda açık olan uygulamalar arasında geçiş yapınız.").value,
+          "Dosya Gezgini’ni açarak “Belgeler” klasörünü bulunuz.": document.getElementById("Dosya Gezgini’ni açarak “Belgeler” klasörünü bulunuz.").value,
+          "Masaüstünde “Deneme” adında yeni bir klasör oluşturunuz.": document.getElementById("Masaüstünde “Deneme” adında yeni bir klasör oluşturunuz.").value,
+          "Size verilen bir Word dosyasını bu klasöre taşıyınız.": document.getElementById("Size verilen bir Word dosyasını bu klasöre taşıyınız.").value,
+          "USB belleği takınız ve içindeki bir dosyayı masaüstüne kopyalayınız.": document.getElementById("USB belleği takınız ve içindeki bir dosyayı masaüstüne kopyalayınız.").value,
+          "Belgeyi “Farklı Kaydet” seçeneğiyle masaüstüne “Test_Dosyası” adıyla kaydediniz.": document.getElementById("Belgeyi “Farklı Kaydet” seçeneğiyle masaüstüne “Test_Dosyası” adıyla kaydediniz.").value,
+          "Word programını açarak 'Bugün hava çok güzel' cümlesini yazınız ve kalın, italik yapınız.": document.getElementById("Word programını açarak 'Bugün hava çok güzel' cümlesini yazınız ve kalın, italik yapınız.").value,
+          "Excel’de 3 sütun ve 3 satırdan oluşan basit bir tablo oluşturunuz (örneğin: ürün – adet – fiyat).": document.getElementById("Excel’de 3 sütun ve 3 satırdan oluşan basit bir tablo oluşturunuz (örneğin: ürün – adet – fiyat).").value,
+          "PowerPoint’te yeni bir sunum oluşturunuz ve “Hoş Geldiniz” başlıklı bir slayt ekleyiniz.": document.getElementById("PowerPoint’te yeni bir sunum oluşturunuz ve “Hoş Geldiniz” başlıklı bir slayt ekleyiniz.").value,
+          "Google hesabınıza giriş yapınız.": document.getElementById("Google hesabınıza giriş yapınız.").value,
+          "Google Docs’ta boş bir belge açınız, “Merhaba Dünya” yazınız ve belgeyi kaydediniz.": document.getElementById("Google Docs’ta boş bir belge açınız, “Merhaba Dünya” yazınız ve belgeyi kaydediniz.").value,
+          "Bu belgeyi bir arkadaşınızla paylaşınız. (Paylaş bağlantısı kullanılarak yapılabilir)": document.getElementById("Bu belgeyi bir arkadaşınızla paylaşınız. (Paylaş bağlantısı kullanılarak yapılabilir)").value,
+          "E-posta hesabınıza giriş yapınız.": document.getElementById("E-posta hesabınıza giriş yapınız.").value,
+          "Yeni bir e-posta oluşturunuz, “test@mail.com” adresine 'Deneme' konulu bir e-posta gönderiniz.": document.getElementById("Yeni bir e-posta oluşturunuz, “test@mail.com” adresine 'Deneme' konulu bir e-posta gönderiniz.").value,
+          "E-postaya bir dosya eki ekleyiniz.": document.getElementById("E-postaya bir dosya eki ekleyiniz.").value,
+          "Gelen kutusundaki bir e-postayı “Eğitim” adlı klasöre taşıyınız. (Varsa)": document.getElementById("Gelen kutusundaki bir e-postayı “Eğitim” adlı klasöre taşıyınız. (Varsa)").value,
+          "Web tarayıcınızı açınız ve www.google.com adresine gidiniz.": document.getElementById("Web tarayıcınızı açınız ve www.google.com adresine gidiniz.").value,
+          "“Güvenli internet kullanımı nedir?” sorusunu aratınız ve bir kaynak seçiniz.": document.getElementById("“Güvenli internet kullanımı nedir?” sorusunu aratınız ve bir kaynak seçiniz.").value,
+          "Güvenli şifre oluşturma kurallarını listeleyen bir sayfayı bulunuz.": document.getElementById("Güvenli şifre oluşturma kurallarını listeleyen bir sayfayı bulunuz.").value,
+          "Sosyal medya hesabınız varsa güvenlik ayarlarını kontrol ediniz (şifre, iki adımlı doğrulama).": document.getElementById("Sosyal medya hesabınız varsa güvenlik ayarlarını kontrol ediniz (şifre, iki adımlı doğrulama).").value,
+          "www.turkiye.gov.tr (e-devlet) ana sayfasına gidiniz. (Giriş yapılması istenmez, tanıma seviyesi yeterlidir)": document.getElementById("www.turkiye.gov.tr (e-devlet) ana sayfasına gidiniz. (Giriş yapılması istenmez, tanıma seviyesi yeterlidir)").value,
+          "kariyer.net, LinkedIn veya benzeri bir iş başvuru sitesini açınız.": document.getElementById("kariyer.net, LinkedIn veya benzeri bir iş başvuru sitesini açınız.").value,
+          "Bu tür platformlarda iş ilanı aramak için hangi bilgilerin gerektiğini açıklayınız (sözlü/yazılı).": document.getElementById("Bu tür platformlarda iş ilanı aramak için hangi bilgilerin gerektiğini açıklayınız (sözlü/yazılı).").value,
+
+          timestamp: new Date().toLocaleString("tr-TR")
+        }
+      };
+
+      fetch("https://api.sheety.co/6db18007e15db4c87d6f6f6d4e02e5af/formCevaplari/sayfa1", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      })
+      .then(response => {
+        if (response.ok) {
+          alert("Form başarıyla gönderildi!");
+          document.getElementById("form").reset();
+        } else {
+          alert("Bir hata oluştu.");
+        }
+      })
+      .catch(error => {
+        alert("Bağlantı hatası oluştu.");
+        console.error(error);
+      });
+    });
+  </script>
+</body>
+</html>
